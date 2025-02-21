@@ -1,6 +1,6 @@
 {
   "name": "stack-trace-fixer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modify Node.js error stack traces to display relative paths in a Docker container",
   "main": "index.js",
   "type": "module",
