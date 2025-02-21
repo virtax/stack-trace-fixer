@@ -1,0 +1,29 @@
+{
+  "name": "stack-trace-fixer",
+  "version": "0.1.0",
+  "description": "Modify Node.js error stack traces to display relative paths in a Docker container",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx ava test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtax/stack-trace-fixer.git"
+  },
+  "keywords": [
+    "error",
+    "stack",
+    "trace",
+    "docker"
+  ],
+  "author": "Dmytro Partsyrnyi",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/virtax/stack-trace-fixer/issues"
+  },
+  "homepage": "https://github.com/virtax/stack-trace-fixer#readme",
+  "devDependencies": {
+    "ava": "^6.2.0"
+  }
+}
